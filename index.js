@@ -1,5 +1,5 @@
 'use strict';
-module.exports = (function()
+const levenshtein = (function()
 {
   function _min(d0, d1, d2, bx, ay)
   {
@@ -103,3 +103,4 @@ module.exports = (function()
   };
 })();
 
+export default levenshtein;
