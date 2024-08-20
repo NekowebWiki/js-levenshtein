@@ -11,13 +11,15 @@ Based on Wagner-Fischer dynamic programming algorithm, optimized for speed and m
  
 ## Install
 
-Download the JS file, and place it into the source files of your website. I might try to get this added to some CDNs.
+Download the Minified JS file([`levenshtein.min.js`](levenshtein.min.js)), and place it into the source files of your website.
+
+I might try to get this added to some CDNs at some point.
 
 ## Usage
 
 ```html
 <script>
-import levenshtein from "/path/to/levenshtein.js";
+import levenshtein from "/path/to/levenshtein.min.js";
 levenshtein('kitten', 'sitting');
 //=> 3
 </script>
