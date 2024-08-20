@@ -25,4 +25,4 @@ levenshtein('kitten', 'sitting');
 
 ## License
 
-MIT © Gustaf Andersson
+MIT © Steve0Greatness
